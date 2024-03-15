@@ -6,6 +6,7 @@
 	Created an e-commerce website that enables seamless product purchasing for users and streamlined
 	product management for administrators.
 </div>
+<div class="text-red-500 md:text-sm pt-2">(demo loads slow because of free tier)</div>
 <div class="pt-1">
 	<a
 		href="https://github.com/omkargarde/mern-ecommerce"
@@ -15,7 +16,6 @@
 		href="https://proshop-yipu.onrender.com/"
 		class=" hover:text-blue-500 underline-gray-500 underline underline-offset-2">Demo</a
 	>
-	<div class="text-red-500 md:text-sm pt-2">(demo loads slow because of free tier)</div>
 </div>
 
 <!-- project 2-->
