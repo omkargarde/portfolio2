@@ -1,4 +1,5 @@
 <script>
+	import Footer from '$lib/customComponent/Footer.svelte';
 	import Header from '$lib/customComponent/Header.svelte';
 	import '../app.pcss';
 </script>
@@ -8,4 +9,5 @@
 	<main class="mx-auto w-3/5 pt-12 text-gray-700">
 		<slot />
 	</main>
+	<Footer />
 </div>
