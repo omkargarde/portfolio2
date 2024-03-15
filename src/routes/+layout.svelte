@@ -4,9 +4,9 @@
 	import '../app.pcss';
 </script>
 
-<div class=" bg-slate-50 pb-8">
-	<Header />
-	<main class="mx-auto w-3/5 pt-12 text-gray-700">
+<div class="  pb-8">
+	<!-- <Header /> -->
+	<main class="sm:w-3/5 sm:mx-auto mx-8 w-11/12 pt-12 text-gray-700">
 		<slot />
 	</main>
 	<Footer />

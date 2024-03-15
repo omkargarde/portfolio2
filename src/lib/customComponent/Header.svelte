@@ -1,8 +1,8 @@
 <script>
 </script>
 
-<div class="mx-auto mt-2 flex w-3/5 justify-between pb-2 pt-2 align-middle">
-	<div class="flex items-center text-xl font-bold">
+<div class="md:mx-auto mx-8 mt-2 flex md:w-3/5 w-11/12 justify-between pb-2 pt-2 align-middle">
+	<div class="flex items-center md:text-xl font-bold">
 		<p class="text-blue-500">Omkar Garde</p>
 	</div>
 	<div class="flex">
