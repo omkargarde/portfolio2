@@ -1,4 +1,4 @@
-<h2 id="skills" class="pt-4 md:text-xl text-blue-500">Skills:</h2>
+<h2 id="skills" class="pt-4 md:text-xl text-2xl text-blue-500">Skills:</h2>
 <ul class="pt-4">
 	<li>TypeScript</li>
 	<li>JavaScript</li>

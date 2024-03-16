@@ -1,12 +1,12 @@
-<h2 id="projects" class="md:text-xl pt-4 text-blue-500">Projects</h2>
+<h2 id="projects" class="md:text-xl text-2xl pt-4 text-blue-500">Projects</h2>
 
 <!-- project 1-->
-<div class="pt-4 md:text-lg text-teal-500">Ecommerce website using MERN</div>
+<div class="pt-4 md:text-lg text-xl text-teal-500">Ecommerce website using MERN</div>
 <div class="pt-2 text-balance">
 	Created an e-commerce website that enables seamless product purchasing for users and streamlined
 	product management for administrators.
 </div>
-<div class="text-red-500 md:text-sm pt-2">(demo loads slow because of free tier)</div>
+<div class="text-red-500 text-sm pt-2">(demo loads slow because of free tier)</div>
 <div class="pt-1">
 	<a
 		href="https://github.com/omkargarde/mern-ecommerce"
@@ -19,7 +19,7 @@
 </div>
 
 <!-- project 2-->
-<div class="pt-4 md:text-lg text-teal-500">AngularAdminUI</div>
+<div class="pt-4 md:text-lg text-xl text-teal-500">AngularAdminUI</div>
 <div class="pt-2 text-balance">
 	Developed the Angular admin UI project to provide a dynamic and interactive user interface for
 	managing user roles. Utilized Angular framework to create a seamless user experience, resulting in
@@ -38,7 +38,7 @@
 </div>
 
 <!-- project 3-->
-<div class="pt-4 md:text-lg text-teal-500">Events management using NextJS</div>
+<div class="pt-4 md:text-lg text-xl text-teal-500">Events management using NextJS</div>
 <div class="pt-2 text-balance">
 	Developed events management using NextJS, React, and CSS modules. Streamlined event creation and
 	management by implementing features such as event registration, resulting in improved efficiency
