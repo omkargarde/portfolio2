@@ -23,6 +23,9 @@ devDependencies:
   '@types/eslint':
     specifier: ^8.56.0
     version: 8.56.5
+  '@types/gtag.js':
+    specifier: ^0.0.19
+    version: 0.0.19
   '@typescript-eslint/eslint-plugin':
     specifier: ^7.0.0
     version: 7.2.0(@typescript-eslint/parser@7.2.0)(eslint@8.57.0)(typescript@5.4.2)
@@ -922,6 +925,10 @@ packages:
 
   /@types/estree@1.0.5:
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
+    dev: true
+
+  /@types/gtag.js@0.0.19:
+    resolution: {integrity: sha512-KHoDzrf9rSd0mooKN576PjExpdk/XRrNu4RQnmigsScSTSidwyOUe9kDrHz9UPKjiBrx2QEsSkexbJSgS0j72w==}
     dev: true
 
   /@types/json-schema@7.0.15:
