@@ -1,3 +1,18 @@
-<div class="mx-auto w-3/5 pt-12 text-gray-400 text-center">
-	© 2024 - Designed and Developed by Omkar Garde
-</div>
+<script lang="ts">
+	import * as config from '$lib/config';
+</script>
+
+<footer>
+	<p>{config.title} &copy {new Date().getFullYear()}</p>
+</footer>
+
+<style>
+	footer {
+		padding-block: var(--size-7);
+		border-top: 1px solid var(--border);
+	}
+
+	p {
+		color: var(--text-2);
+	}
+</style>
