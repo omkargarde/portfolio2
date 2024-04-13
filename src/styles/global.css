@@ -1,78 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html {
-  background-color: #f1f5f9;
-  font-family: sans-serif;
+  overflow-y: scroll;
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+html,
+body {
+  @apply size-full;
 }
 
 body {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 80ch;
-  padding: 1rem;
-  line-height: 1.5;
+  @apply font-mono antialiased;
+  @apply flex flex-col;
+  @apply bg-stone-100 dark:bg-stone-900;
+  @apply text-black/50 dark:text-white/75;
 }
 
-* {
-  box-sizing: border-box;
+header {
+  @apply fixed top-0 left-0 right-0 z-50 py-5;
+  @apply bg-stone-100/75 dark:bg-stone-900/25;
+  @apply backdrop-blur-sm saturate-200;
 }
 
-h1 {
-  margin: 1rem 0;
-  font-size: 2.5rem;
+main {
+  @apply flex-1 py-32;
 }
 
-/* nav styles */
-.hamburger {
-  padding-right: 20px;
-  cursor: pointer;
+footer {
+  @apply py-5 text-sm;
 }
 
-.hamburger .line {
-  display: block;
-  width: 40px;
-  height: 5px;
-  margin-bottom: 10px;
-  background-color: #ff9776;
+article {
+  @apply max-w-full prose dark:prose-invert prose-img:mx-auto prose-img:my-auto;
+  @apply prose-headings:font-semibold prose-p:font-serif;
+  @apply prose-headings:text-black prose-headings:dark:text-white;
 }
 
-.nav-links {
-  width: 100%;
-  top: 5rem;
-  left: 48px;
-  background-color: #ff9776;
-  display: none;
-  margin: 0;
-}
-
-.nav-links a {
-  display: block;
-  text-align: center;
-  padding: 10px 0;
-  text-decoration: none;
-  font-size: 1.2rem;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.nav-links a:hover,
-.nav-links a:focus {
-  background-color: #ff9776;
-}
-
-.expanded {
-  display: unset;
-}
-
-@media screen and (min-width: 636px) {
-  .nav-links {
-    margin-left: 5em;
-    display: block;
-    position: static;
-    width: auto;
-    background: none;
+@layer utilities {
+  article a {
+    @apply font-sans text-current underline underline-offset-2;
+    @apply decoration-black/15 dark:decoration-white/30;
+    @apply transition-colors duration-300 ease-in-out;
   }
-
-  .nav-links a {
-    display: inline-block;
-    padding: 15px 20px;
+  article a:hover {
+    @apply text-black dark:text-white;
+    @apply decoration-black/25 dark:decoration-white/50;
   }
+}
+
+.animate {
+  @apply opacity-0 translate-y-3;
+  @apply transition-all duration-700 ease-out;
+}
+
+.animate.show {
+  @apply opacity-100 translate-y-0;
+}
+
+html #back-to-top {
+  @apply opacity-0 pointer-events-none;
+}
+
+html.scrolled #back-to-top {
+  @apply opacity-100 pointer-events-auto;
 }
