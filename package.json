@@ -6,8 +6,7 @@
     "dev": "astro dev",
     "dev:network": "astro dev --host",
     "build": "astro check && astro build",
-    "preview": "wrangler pages dev ./dist",
-    "deploy":"wrangler deploy",
+    "preview": "astro preview",
     "preview:network": "astro preview --host",
     "astro": "astro",
     "lint": "eslint .",
@@ -15,7 +14,6 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.5.9",
-    "@astrojs/cloudflare": "^10.1.0",
     "@astrojs/mdx": "^2.2.0",
     "@astrojs/rss": "^4.0.5",
     "@astrojs/sitemap": "^3.1.1",
@@ -34,8 +32,5 @@
     "tailwind-merge": "^2.2.2",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.4.2"
-  },
-  "devDependencies": {
-    "wrangler": "^3.50.0"
   }
 }
