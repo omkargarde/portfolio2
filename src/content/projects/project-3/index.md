@@ -6,6 +6,6 @@ demoURL: "https://next-js-event-chi.vercel.app/"
 repoURL: "https://github.com/omkargarde/nextJSEvent"
 ---
 
-![Events management using NextJSmin UI](/public/events-manage.png)
+![Events management using NextJSmin UI](/events-manage.png)
 
 Developed events management using NextJS, React, and CSS modules. Streamlined event creation and management by implementing features such as event registration.

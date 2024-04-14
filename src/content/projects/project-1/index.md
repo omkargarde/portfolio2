@@ -6,8 +6,7 @@ demoURL: "https://proshop-yipu.onrender.com/"
 repoURL: "https://github.com/omkargarde/mern-ecommerce"
 ---
 
-asdas
-![E-commerce website Screenshot](/public/proshop.png)
+![E-commerce website Screenshot](/proshop.png)
 
 Created an e-commerce website that enables seamless product purchasing for users and streamlined product management for administrators.
 

@@ -6,7 +6,7 @@ demoURL: "https://angular-admin-ui.vercel.app/"
 repoURL: "https://github.com/omkargarde/angularAdminUI"
 ---
 
-![Angular admin UI](/public/angular-admin.png)
+![Angular admin UI](/angular-admin.png)
 
 Developed the Angular admin UI project to provide a dynamic and interactive user interface for managing user roles, resulting in improved efficiency and ease of use for administrators
 
