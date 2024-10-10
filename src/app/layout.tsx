@@ -1,7 +1,8 @@
+import Background from "@/components/Background";
 import Header from "@/components/Header";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
+import styles from "./home.module.css";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,7 +18,8 @@ export default function RootLayout({
     <html lang="en">
       <body className="">
         <Header />
-        {children}
+        {/* <Background /> */}
+        <div className={styles.container}>{children}</div>
       </body>
     </html>
   );
