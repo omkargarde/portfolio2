@@ -1,12 +1,30 @@
+import { link } from "fs";
+import Logo from "./Logo";
+
 const Header = () => {
+  const links = [
+    {
+      link: "/blog",
+      label: "/Blog",
+    },
+    {
+      link: "/Projects",
+      label: "/Projects",
+    },
+  ];
   return (
     <header className="">
       <nav className="">
-        <ul className="m-10 flex">
-          <li className="text-2xl">Omkar Garde</li>
+        <ul className="flex p-10">
+          <li className="-rotate-6 text-2xl text-stone-50">Omkar Garde</li>
           <div className="flex-1"></div>
-          <li className="mx-2 text-lg">\Blog</li>
-          <li className="mx-2 text-lg">\Projects</li>
+          {links.map((link) => {
+            return (
+              <li key={link.link} className="px-2 text-lg">
+                {link.label}
+              </li>
+            );
+          })}
         </ul>
       </nav>
     </header>

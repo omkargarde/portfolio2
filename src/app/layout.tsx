@@ -1,8 +1,6 @@
-import Background from "@/components/Background";
 import Header from "@/components/Header";
 import type { Metadata } from "next";
 import "./globals.css";
-import styles from "./home.module.css";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,10 +14,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="">
+      <body className="bg-slate-950 text-neutral-400">
         <Header />
-        {/* <Background /> */}
-        <div className={styles.container}>{children}</div>
+        <div>{children}</div>
       </body>
     </html>
   );

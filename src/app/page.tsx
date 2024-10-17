@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main className="prose mx-auto max-w-prose">
       <header>
-        <h1 className="text-5xl md:text-4xl">Omkar Garde</h1>
+        <h1 className="text-5xl text-stone-100 md:text-4xl">Omkar Garde</h1>
       </header>
       <article>
         <p className="text-lg">Hi, I am Omkar Garde, A frontend developer.</p>
@@ -11,7 +11,9 @@ export default function Home() {
         </p>
         <section>
           <p>June 2020 - May 2024</p>
-          <h2 className="text-3xl md:text-2xl">Work Experience</h2>
+          <h2 className="text-3xl text-stone-100 md:text-2xl">
+            Work Experience
+          </h2>
           <p>Frontend Developer</p>
           <p className="text-pretty">
             Experienced JavaScript Developer at DXC Technology with a track
@@ -26,7 +28,7 @@ export default function Home() {
           </p>
         </section>
         <section>
-          <h2 className="text-3xl md:text-2xl">Connect with me at</h2>
+          <h2 className="text-3xl md:text-2xl text-stone-100">Connect with me at</h2>
           <ul>
             <li>
               <a
