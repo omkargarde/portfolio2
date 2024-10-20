@@ -1,4 +1,4 @@
-import Header from "@/components/Header";
+import Header from "@/shared/Header";
 import type { Metadata } from "next";
 import "./globals.css";
 
@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-slate-950 text-neutral-400">
+      <body className="bg-neutral-900 text-neutral-300">
         <Header />
         <div>{children}</div>
       </body>
