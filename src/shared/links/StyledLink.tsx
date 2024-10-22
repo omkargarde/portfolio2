@@ -7,9 +7,10 @@ type Url = string | UrlObject;
 const StyledLinkWithPrefetch = ({
   href,
   children,
-}: Readonly<{ href: Url; children: React.ReactNode }>) => {
+  prefetch,
+}: Readonly<{ href: Url; children: React.ReactNode; prefetch: boolean }>) => {
   return (
-    <Link href={href} prefetch={true}>
+    <Link href={href} prefetch={prefetch}>
       {children}
     </Link>
   );

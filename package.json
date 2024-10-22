@@ -13,26 +13,27 @@
     "cf-typegen": "wrangler types --env-interface CloudflareEnv env.d.ts"
   },
   "dependencies": {
-    "next": "14.2.5",
-    "react": "^18",
-    "react-dom": "^18"
+    "next": "15.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind": "^4.0.0"
   },
   "devDependencies": {
-    "@cloudflare/next-on-pages": "1",
-    "@cloudflare/workers-types": "^4.20240925.0",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
+    "@cloudflare/next-on-pages": "^1.13.5",
+    "@cloudflare/workers-types": "^4.20241018.0",
+    "@types/node": "^20.16.14",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "eslint": "^8.57.1",
     "eslint-config-next": "14.2.5",
-    "eslint-plugin-next-on-pages": "^1.13.3",
-    "postcss": "^8",
+    "eslint-plugin-next-on-pages": "^1.13.5",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "postcss": "^8.4.47",
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "0.6.8",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5",
-    "vercel": "^37.6.0",
-    "wrangler": "^3.79.0"
+    "typescript": "^5.6.3",
+    "vercel": "^37.12.0",
+    "wrangler": "^3.81.0"
   },
   "packageManager": "pnpm@9.11.0+sha512.0a203ffaed5a3f63242cd064c8fb5892366c103e328079318f78062f24ea8c9d50bc6a47aa3567cabefd824d170e78fa2745ed1f16b132e16436146b7688f19b"
 }
