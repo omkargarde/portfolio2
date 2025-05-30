@@ -1,23 +1,15 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "module": "ESNext",
-    "moduleResolution": "bundler",
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
     "jsx": "preserve",
     "jsxImportSource": "solid-js",
-    "allowJs": true,
-    "strict": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "types": ["vite/client"],
+    "strictNullChecks": true,
     "noEmit": true,
-    "types": [
-        "./worker-configuration.d.ts",
-        "node",
-        "vinxi/types/client"
-    ],
-    "isolatedModules": true,
-    "paths": {
-      "~/*": ["./src/*"]
-    }
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true
   }
 }

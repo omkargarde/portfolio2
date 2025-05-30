@@ -1,27 +1,26 @@
 {
-	"name": "example-basic",
-	"type": "module",
-	"scripts": {
-		"dev": "vinxi dev",
-		"build": "vinxi build",
-		"start": "vinxi start",
-		"version": "vinxi version",
-		"preview": "pnpm run build && npx wrangler pages dev",
-		"deploy": "pnpm run build && wrangler pages deploy",
-		"cf-typegen": "wrangler types"
-	},
-	"dependencies": {
-		"@solidjs/meta": "^0.29.4",
-		"@solidjs/router": "^0.15.0",
-		"@solidjs/start": "^1.1.0",
-		"solid-js": "^1.9.5",
-		"vinxi": "^0.5.3"
-	},
-	"engines": {
-		"node": ">=22"
-	},
-	"devDependencies": {
-		"@types/node": "^22.15.28",
-		"wrangler": "^4.18.0"
-	}
+  "name": "vite-template-solid",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
+  },
+  "dependencies": {
+    "@solidjs/router": "^0.15.3",
+    "solid-js": "^1.9.7"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.13.2",
+    "eslint": "^9.27.0",
+    "eslint-plugin-solid": "^0.14.5",
+    "vite": "^6.3.5",
+    "vite-plugin-solid": "^2.11.6"
+  }
 }
