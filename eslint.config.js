@@ -1,5 +1,5 @@
-import antfu from '@antfu/eslint-config'
+//  @ts-check
 
-export default antfu({
-  vue: true,
-})
+import { tanstackConfig } from "@tanstack/eslint-config";
+
+export default [...tanstackConfig];
